@@ -1,0 +1,27 @@
+# RANDOM PASSW GENERATOR 
+
+import random
+
+print("WELCOME TO RANDOM PASSWORD GENERATOR !")
+rdp="ABCDEFGHJKLSQRTYUIOPABVCXZNMabnvczxmnkljhgfdsaqwertyuiop1234567890!@#$%^&*"
+inrdp=int(input("Please enter the number of password to be generator:"))
+pwdlen=int(input("please enter the leng of the paswd needed"))
+
+print("Here are you random paswd:")
+for x in range(inrdp):
+    pwd=""
+    for chars in range(pwdlen):
+        pwd=pwd+random.choice(rdp)
+    print(pwd)
+
+
+O/P
+WELCOME TO RANDOM PASSWORD GENERATOR !
+Please enter the number of password to be generator:5
+please enter the leng of the paswd needed10
+Here are you random paswd:
+@UVM&@3B8J
+^cX8ukjUlE
+gBi#JPpfMz
+j0np6@w0*5
+9sVohTuZBi
